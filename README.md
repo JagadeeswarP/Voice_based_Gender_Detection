@@ -1,5 +1,5 @@
-DataSets Link:
-Common Voice : https://commonvoice.mozilla.org/en/datasets
+DataSets Link:                                
+Common Voice : https://commonvoice.mozilla.org/en/datasets               
 Kaggle : https://www.kaggle.com/datasets/murtadhanajim/gender-recognition-by-voiceoriginal/data
 
 Summary:
@@ -19,4 +19,14 @@ It helps in distinguishing male and female voices, as male voices usually have l
 
 For training, Mel-Frequency Cepstral Coefficients (MFCCs) are extracted from the recordings to capture essential speech features. The pre-trained Xception model is fine-tuned using these extracted features for binary classification (male/female).
 
+ What is a CNN?
+A CNN is a deep learning model designed for image and pattern recognition. Even though we are dealing with audio, we use a CNN because MFCC features look like images (spectrogram-like patterns).
+
+👉 Why CNN for Gender Detection?
+
+MFCCs are like 2D images (time vs. frequency).
+
+CNNs are great at finding patterns in 2D data.
+
+They automatically learn which parts of the voice signal distinguish male from female.
 
